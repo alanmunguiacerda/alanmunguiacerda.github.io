@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Flexbox demo</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <h1>Flexbox demo</h1>
+    <main id="main_container">
+        <section id="options">
+            <div class="option">
+                <label>Add child</label>
+                <button id="add_children">Add</button>
+            </div>
+            <div class="option">
+                <label>Remove child</label>
+                <button id="remove_children">Delete</button>
+            </div>
+            <div class="option">
+                <label>Container min-width(px)</label>
+                <input id="container_width" placeholder="200"></input>
+            </div>
+            <div class="option">
+                <label>Container min-height(px)</label>
+                <input id="container_height" placeholder="200"></input>
+            </div>
+        </section>
+        <section id="items_container"></section>
+    </main>
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
