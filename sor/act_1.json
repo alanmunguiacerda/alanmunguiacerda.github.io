@@ -62,7 +62,7 @@
           "description": "Una vez que se inicia la computadora y entra al sistema operativo, se pedirán ciertos datos para la configuración del mismo. Llenar estos datos a conveniencia. Al finalizar esta etapa, la computadora se reiniciará una vez más."
         },
         {
-          "image": "/sor/media/act_1/win11.jpg",
+          "image": "/sor/media/act_1/win12.jpg",
           "title": "Terminado",
           "description": "Una vez que la computadora inicia de nuevo, entrará directo al escritorio del usuario que creamos en el paso anterior."
         }
