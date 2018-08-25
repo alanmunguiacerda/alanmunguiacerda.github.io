@@ -1,0 +1,60 @@
+html {
+  font-family: "Arial", "Helvetica";
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+body {
+  padding: 40px 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+.slider {
+    width: auto;
+    margin: 20px 50px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #2c3e50;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__image {
+  width: 600px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.separator {
+  border: solid 1px #e4e4e4;
+  margin: 50px;
+}
+
+ul {
+  list-style: none;
+  -webkit-padding-start: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+a:link, a:visited {
+  color: #5a5a5a;
+}
+a:hover, a:focus {
+  color: #4fc08d;
+}
