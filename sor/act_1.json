@@ -68,6 +68,32 @@
         }
       ]
     },
+    "winChar": {
+      "title": "Características de Windows",
+      "data": [
+        {
+          "description": "Interfaz amigable al usuario."
+        },
+        {
+          "description": "Gran cantidad de software."
+        },
+        {
+          "description": "Al tener una base de usuarios grande, es el principal objetivo de los ciber ataques."
+        },
+        {
+          "description": "Puede ser ejecutado en una gran cantidad de hardware."
+        },
+        {
+          "description": "Es fácil encontrar soporte y casos similares si se llega a tener un problema."
+        },
+        {
+          "description": "Poco flexible en su personalización."
+        },
+        {
+          "description": "Es un sistema operativo robusto, pero también requiere muchos recursos."
+        }
+      ]
+    },
     "linux": {
       "title": "Instalación de Linux",
       "description": "Se instalará TinyCore desde una USB",
@@ -121,6 +147,41 @@
           "image": "/sor/media/act_1/linux10.jpg",
           "title": "Todo listo",
           "description": "Una vez que se muestra el escritorio, podemos comenzar a usar nuestro sistema operativo."
+        }
+      ]
+    },
+    "linuxChar": {
+      "title": "Características de Linux",
+      "data": [
+        {
+          "description": "Instalación para todos los gustos, desde simple hasta totalmente personalizada."
+        },
+        {
+          "description": "Hoy en día cuenta con una cantidad de software y alternativas aceptables."
+        },
+        {
+          "description": "Al ser sus usuarios más cuidadosos, es más difícil contagiarse de virus."
+        },
+        {
+          "description": "Puede ser ejecutado en una gran cantidad de hardware."
+        },
+        {
+          "description": "Es fácil encontrar soporte y casos similares si se llega a tener un problema."
+        },
+        {
+          "description": "Totalmente flexible en su personalización."
+        },
+        {
+          "description": "Sabores para todas las necesidades, comenzando desde distribuciones de 8mb hasta estaciones de trabajo completas, de 5gb."
+        },
+        {
+          "description": "Algunos controladores no son desarrollados por empresas, sino por la comunidad."
+        },
+        {
+          "description": "Al ser una base de código abierto, se puede modificar directamente el sistema operativo."
+        },
+        {
+          "description": "Ya que su comunidad es muy activa, los bugs encontrados tienen solución rápidamente."
         }
       ]
     }

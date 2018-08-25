@@ -1,23 +1,23 @@
 const getCarousel = id => $.parseHTML(`<div class="slider" id="${id}"></div>`);
 
-const getCarouselTitle = title => $.parseHTML(`
+const getCarouselTitle = title => title ? $.parseHTML(`
 <div class="center">
   <h2>${title}</h2>
 </div>
-`);
+`) : null;
 
-const getCarouselDescription = description => $.parseHTML(`
+const getCarouselDescription = description => description ? $.parseHTML(`
 <div class="center">
   <p>${description}</p>
 </div>
-`);
+`) : null;
 
 const getCard = ({image, title, description}) => $.parseHTML(`
 <div>
   <div class="card">
-    <img class="card__image" data-lazy="${image}" />
-    <h3>${title}</h3>
-    <p>${description}</p>
+    ${image ? `<img class="card__image" data-lazy="${image}" />` : ''}
+    ${title ? `<h3>${title}</h3>` : ''}
+    ${description ? `<p>${description}</p>` : ''}
   </div>
 </div>
 `);
