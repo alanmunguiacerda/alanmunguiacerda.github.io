@@ -12,10 +12,12 @@ const getCarouselDescription = description => description ? $.parseHTML(`
 </div>
 `) : null;
 
-const getCard = ({image, title, description}) => $.parseHTML(`
+const getCard = ({image, title, description, icon, link, linkText}) => $.parseHTML(`
 <div>
   <div class="card">
+    ${icon ? `<img class="card__icon" data-lazy="${icon}" />` : ''}
     ${image ? `<img class="card__image" data-lazy="${image}" />` : ''}
+    ${link ? `<a href="${link}">${linkText}</a>` : ''}
     ${title ? `<h3>${title}</h3>` : ''}
     ${description ? `<p>${description}</p>` : ''}
   </div>
@@ -45,19 +47,6 @@ const createSlickInitializer = id => () => {
   });
 };
 
-const getActName = () => {
-  const url = new URL(document.location);
-  return url.searchParams.get('name');
-};
-
-const getData = async actName => {
-  return fetch(`/sor/${actName}.json`)
-    .then(res => res.json())
-    .then(data => {
-      return data;
-    });
-};
-
 const addCarousel = (id, { title, description }) => {
   const container = $('#carousels');
   container.append(getSeparator());
@@ -76,12 +65,9 @@ const initCarousel = (id) => {
   createSlick = createSlickInitializer(id);
   createSlick();
   $(window).on('resize', createSlick);
-}
+};
 
-$(async () => {
-  const actName = getActName();
-  const actData = await getData(actName);
-
+const load = actData => {
   addTitle(actData.title);
   addDescription(actData.description);
 
@@ -91,4 +77,4 @@ $(async () => {
     populateCarousel(key, carousel.data);
     initCarousel(key);
   });
-});
+}
