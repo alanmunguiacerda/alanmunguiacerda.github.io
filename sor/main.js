@@ -17,8 +17,8 @@ const getCard = ({image, title, description, icon, link, linkText}) => $.parseHT
   <div class="card">
     ${icon ? `<img class="card__icon" data-lazy="${icon}" />` : ''}
     ${image ? `<img class="card__image" data-lazy="${image}" />` : ''}
-    ${link ? `<a href="${link}">${linkText}</a>` : ''}
     ${title ? `<h3>${title}</h3>` : ''}
+    ${link ? `<a href="${link}">${linkText}</a>` : ''}
     ${description ? `<p>${description}</p>` : ''}
   </div>
 </div>
