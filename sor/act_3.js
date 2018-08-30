@@ -60,13 +60,49 @@ const data = {
       data: [
         {
           image: 'media/act_3/win1.png',
-          title: '',
-          description: ''
+          title: 'Ir al sitio oficial de Libre Office',
+          link: 'https://openoffice.com',
+          linkText: 'https://es.libreoffice.org/',
         },
         {
-          icon: 'media/download.png',
-          link: 'media/act_3/main.py',
-          linkText: 'Ver código',
+          image: 'media/act_3/win2.png',
+          title: 'Sección de descargas',
+          description: 'Ir a la sección de descargas.'
+        },
+        {
+          image: 'media/act_3/win3.png',
+          title: 'Descargando',
+          description: 'Esperar a que termine la descarga.'
+        },
+        {
+          image: 'media/act_3/win4.png',
+          title: 'Ejecutar instalador',
+          description: 'Una vez que la descarga haya sido completada, ejecutar el instalador. Dar click en "Next"'
+        },
+        {
+          image: 'media/act_3/win5.png',
+          title: 'Instalación típica',
+          description: 'Seleccionar la opción "Typical" y dar click a "Next".'
+        },
+        {
+          image: 'media/act_3/win6.png',
+          title: 'Añadir icono a escritorio',
+          description: 'Marcar la opción "Create a start link on desktop" y click en "Install"'
+        },
+        {
+          image: 'media/act_3/win7.png',
+          title: 'Aceptar cambios',
+          description: 'Click en "Yes" cuando se nos pregunte por permisos.'
+        },
+        {
+          image: 'media/act_3/win8.png',
+          title: 'Esperar',
+          description: 'Esperar a que la instalación termine. Una vez terminada, dar click en "Finish"'
+        },
+        {
+          image: 'media/act_3/win9.png',
+          title: 'Abrir Libre Office',
+          description: 'Una vez haya terminado la instalación, Libre Office debería estar disponible como un programa.'
         },
       ]
     }
