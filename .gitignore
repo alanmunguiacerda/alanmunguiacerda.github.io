@@ -1,2 +1,16 @@
 *.pyc
 *.class
+sor/media/act_5/example/models.py
+sor/media/act_5/db.sqlite3
+sor/media/act_5/manage.py
+sor/media/act_5/act_5/__init__.py
+sor/media/act_5/act_5/settings.py
+sor/media/act_5/act_5/urls.py
+sor/media/act_5/act_5/wsgi.py
+sor/media/act_5/example/__init__.py
+sor/media/act_5/example/admin.py
+sor/media/act_5/example/apps.py
+sor/media/act_5/example/tests.py
+sor/media/act_5/example/urls.py
+sor/media/act_5/example/views.py
+sor/media/act_5/example/migrations/__init__.py
