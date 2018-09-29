@@ -15,3 +15,4 @@ sor/media/act_5/example/urls.py
 sor/media/act_5/example/views.py
 sor/media/act_5/example/migrations/__init__.py
 sor/media/act_4/*.csv
+sor/media/act_6/example*
