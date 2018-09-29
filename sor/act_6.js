@@ -60,7 +60,7 @@ const data = {
     },
     win: {
       title: 'RoR en Windows',
-      description: 'Descargar instalador de RoR + Ruby en windows',
+      description: 'Crearemos una aplicación básica en RoR desde Windows.',
       data: [
         {
           image: 'media/act_6/win1.png',
